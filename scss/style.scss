@@ -428,6 +428,9 @@ h1, h2, h3, h4, h5,
 					position: relative;
 					// height: 650px;
 					z-index: -1;
+					&.hero-background{
+						width: 50%;
+					}
 					.overlay{
 						position: absolute;
 						top: 0;
@@ -443,6 +446,9 @@ h1, h2, h3, h4, h5,
 					@include media-breakpoint-down(md){
 						width: 100%;
 						z-index: 0;
+						&.hero-background{
+							width: 100%;
+						}
 						.overlay{
 							opacity: .3;
 						}

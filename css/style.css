@@ -8474,6 +8474,8 @@ h1, h2, h3, h4, h5,
           width: 60%;
           position: relative;
           z-index: -1; }
+          .owl-carousel.home-slider .slider-item .slider-text .one-third.hero-background {
+            width: 50%; }
           .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
             position: absolute;
             top: 0;
@@ -8489,6 +8491,8 @@ h1, h2, h3, h4, h5,
             .owl-carousel.home-slider .slider-item .slider-text .one-third {
               width: 100%;
               z-index: 0; }
+              .owl-carousel.home-slider .slider-item .slider-text .one-third.hero-background {
+                width: 100%; }
               .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
                 opacity: .3; }
               .owl-carousel.home-slider .slider-item .slider-text .one-third:after {
